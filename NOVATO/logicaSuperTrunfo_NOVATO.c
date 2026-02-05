@@ -111,6 +111,7 @@ int main(){
     printf("\nComparação de Cartas (Atributo: PIB):\n");
     printf("Carta 1 - %s :  %.2f Bilhoes de reais\n", cidade1, pib1);
     printf("Carta 2 - %s :  %.2f Bilhoes de reais\n", cidade2, pib2);
+    /*Verifica a carta vencedora*/
     if (pib1 > pib2){
         printf("Resultado: Carta 1 venceu - %s:  %.2f Bilhoes de reais\n", cidade1, pib1);
     } else if (pib2 > pib1){
